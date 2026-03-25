@@ -48,7 +48,12 @@ self_driving_cars/
 ```bash
 git clone https://github.com/ZekriDev1/self-driving-car.git
 cd self-driving-car
-
+```
 2. Install dependencies:
-
+```
 pip install numpy pygame
+```
+3. Start the simulation:
+```
+python main.py
+```
