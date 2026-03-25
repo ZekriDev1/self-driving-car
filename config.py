@@ -1,0 +1,58 @@
+SCREEN_WIDTH  = 1270
+SCREEN_HEIGHT = 720
+SIM_WIDTH     = 1000
+UI_WIDTH      = 400
+FPS           = 60
+
+NUM_CARS      = 50
+
+OUTER_RX = 420
+OUTER_RY = 300
+INNER_RX = 240
+INNER_RY = 145
+NUM_TRACK_POINTS  = 80
+NUM_CHECKPOINTS   = 36
+
+CAR_LENGTH    = 26
+CAR_WIDTH_PX  = 13
+MAX_SPEED     = 4.5
+MIN_SPEED     = 0.0
+ACCELERATION  = 0.14
+BRAKE_DECEL   = 0.10
+FRICTION      = 0.965
+MAX_STEER     = 0.033
+
+NUM_SENSORS        = 7
+SENSOR_ANGLES_DEG  = [-75, -45, -20, 0, 20, 45, 75]
+MAX_SENSOR_RANGE   = 300
+
+NN_LAYERS = [9, 12, 8, 3]
+
+NUM_ELITE          = 3
+MUTATION_RATE      = 0.08
+MUTATION_STRENGTH  = 0.25
+
+CAMERA_LERP        = 0.06
+ZOOM_STEP          = 0.1
+MIN_ZOOM           = 0.2
+MAX_ZOOM           = 3.0
+
+SIM_SPEED_MULT      = 1
+NO_PROGRESS_TIMEOUT = 500
+
+C_BG           = (18,  18,  28)
+C_TRACK        = (55,  55,  65)
+C_WALL         = (190, 190, 200)
+C_CAR_BEST     = (50,  220,  80)
+C_CAR_SECOND   = (245, 220, 170)
+C_CAR_NORMAL   = (105, 105, 115)
+C_SENSOR_LINE  = (80,  220,  80)
+C_SENSOR_HIT   = (220,  80,  80)
+C_UI_BG        = (12,  12,  22)
+C_UI_LINE      = (40,  40,  58)
+C_TEXT         = (220, 220, 230)
+C_TEXT_DIM     = (130, 130, 150)
+C_NN_POS       = (50,  200,  80)
+C_NN_NEG       = (200,  50,  50)
+C_NN_NODE      = (200, 200, 220)
+C_ACCENT       = (80,  160, 255)
